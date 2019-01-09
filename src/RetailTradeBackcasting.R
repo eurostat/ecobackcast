@@ -8,7 +8,7 @@ library(openxlsx)
 library(rlist)
 library(hts)
 source("backcastingFunctions.R")
-filename = "../Database/retailTrade.xlsx"
+filename = "../data/retailTrade.xlsx"
 
 # Load region defs
 load("EUregions.dat")
