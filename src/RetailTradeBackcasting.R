@@ -11,7 +11,7 @@ source("backcastingFunctions.R")
 filename = "../data/retailTrade.xlsx"
 
 # Load region defs
-load("EUregions.dat")
+load("../data/EUregions.dat")
 
 # Read in the CA data
 data = read.xlsx(
@@ -201,4 +201,4 @@ dataFinal[,1:2] <- dataFinal[,1:2]/100
 rownames(dataFinal) <- data.rownames
 
 # Write to Excel
-write.xlsx(x = list("CA" = dataFinal), file = "../Database/retailBackcast.xlsx", rowNames = T)
+write.xlsx(x = list("CA" = dataFinal), file = "../data/retailBackcast.xlsx", rowNames = T)
