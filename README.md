@@ -9,7 +9,7 @@ Experimental tools for back-casting principal European Economic indicators.
 The code source files provided herein implement the improved method (through hierarchical adjustment) used for the back-calculation, or back-casts, of Principal European Economic Indicators (PEEIs), as described in this [document](docs/R_backcastingPEEIs.pdf). 
 
 <table align="center">
-    <tr> <td align="left"><i>authors</i></td> <td align="left"> <a href="https://www.linkedin.com/in/jamieleighchapman">J.-L.Chapman,</a>, 
+    <tr> <td align="left"><i>authors</i></td> <td align="left"> <a href="https://www.linkedin.com/in/jamieleighchapman">J.-L.Chapman</a>, 
 	<a href="https://www.linkedin.com/in/rebecca-killick-0427b615a">R.Killick</a> </tr> 
     <tr> <td align="left"><i>version</i></td> <td align="left">1.0</td> </tr> 
     <tr> <td align="left"><i>since</i></td> <td align="left">2018</td> </tr> 
