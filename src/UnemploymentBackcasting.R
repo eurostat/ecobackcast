@@ -31,7 +31,7 @@ A.rownames = rownames(dataAnn)
 dataAnn = 12 * dataAnn
 
 # Load region defs
-load("data/EUregions.dat")
+load("../data/EUregions.dat")
 
 source("backcastingFunctions.R")
 
