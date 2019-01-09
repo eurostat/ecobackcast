@@ -7,7 +7,7 @@ library(openxlsx)
 library(rlist)
 library(hts)
 source("backcastingFunctions.R")
-filename = "../Database/unemployment.xlsx"
+filename = "../data/unemployment.xlsx"
 
 
 # Read in the data
