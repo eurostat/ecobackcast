@@ -32,7 +32,7 @@ A.rownames = rownames(dataAnn)
 dataAnn = 4 * dataAnn
 
 # Load region defs
-load("EUregions.dat")
+load("../data/EUregions.dat")
 source("backcastingFunctions.R")
 
 
@@ -223,5 +223,5 @@ rownames(dataFinalA) <- A.rownames
 rownames(dataFinalQ) <- Q.rownames
 
 # Write to Excel
-write.xlsx(x = list("Annual" = dataFinalA,"Quarterly" = dataFinalQ), file = "../Database/employmentBackcast.xlsx", rowNames = T)
+write.xlsx(x = list("Annual" = dataFinalA,"Quarterly" = dataFinalQ), file = "../data/employmentBackcast.xlsx", rowNames = T)
 
