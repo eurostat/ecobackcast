@@ -2,13 +2,13 @@
 #########       IP backcasting     ############
 ###############################################
 
-setwd("C:/Users/chapmanj/Dropbox/Backcasting/JamieCode")
+# setwd("C:/Users/chapmanj/Dropbox/Backcasting/JamieCode")
 # Filename locations
 library(openxlsx)
 library(rlist)
 library(hts)
 source("backcastingFunctions.R")
-filename = "../Database/IP.xlsx"
+filename = "../data/IP.xlsx"
 
 # Load region defs
 load("EUregions.dat")
