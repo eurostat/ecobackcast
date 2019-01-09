@@ -1,7 +1,7 @@
 ecobackcast
 ===========
 
-Experimental tools for back-casting principal European Economic indicators.
+Experimental tools for back-casting principal European Economic Indicators.
 ---
 
 **About**
