@@ -6,7 +6,7 @@ Experimental tools for back-casting Principal European Economic Indicators.
 
 **About**
 
-The code source files provided herein implement the improved method (through hierarchical adjustment) used for the back-calculation, or back-casts, of Principal European Economic Indicators (PEEIs), as described in this [document](docs/R_backcastingPEEIs.pdf). 
+The code source files provided herein implement the improved method (through hierarchical adjustment) used for the back-calculation, or back-casts, of Principal European Economic Indicators (PEEIs), as described in this [document](docs/R_backcastingPEEIs.pdf). The methodology and source code were developed in the framework of Eurostat's contract on database management and research activities related to the production of PEEIs.
 
 <table align="center">
     <tr> <td align="left"><i>authors</i></td> <td align="left"> <a href="https://www.linkedin.com/in/jamieleighchapman">J.-L.Chapman</a>, 
@@ -18,15 +18,6 @@ The code source files provided herein implement the improved method (through hie
 
 **Description**
 
-Note that the following requests were made as part of the methodological enquiry:
-
-* All the available actual observations of all time-series must be used.
-* The use of statistically sound, sufficiently detailed documentation, publically available and easily
-replicable methodology.
-* The methodology should be applicable both to seasonally adjusted and non-seasonally adjusted data.
-* The methodology should be flexible and enough easily to incorporate new time-series produced by
-Member States.
-* The horizons for the back-calculation must be defined accordingly to the amount of the available data,
-acceptable back-forecasting (back-casting/back-calculation) error and interpretability of the results.
+This methodology allows to make backcasts over the entire structure of the PEEI time series. This approach gives hierarchical consistency both cross-sectionally and temporally. This means that the backcasts for the countries will sum to the backcasts for the whole euro area. Additionally, the backcasts for quarterly data will sum up to the corresponding backcasts for annual data. The method was implemented in R.
 
 The source code is available under the [**_src/_**](src) directory. Experimental data used throughout the different programs are stored under the [**_data/_**](src) directory.
