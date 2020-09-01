@@ -16,8 +16,8 @@ The source code is available under the [**_src/_**](src) directory. Experimental
 **About**
 
 <table align="center">
-    <tr> <td align="left"><i>authors</i></td> <td align="left"> <a href="https://www.linkedin.com/in/jamieleighchapman">J.-L.Chapman</a>, 
-	<a href="https://www.linkedin.com/in/rebecca-killick-0427b615a">R.Killick</a> </tr> 
+    <tr> <td align="left"><i>authors</i></td> <td align="left"> <a href="https://www.linkedin.com/in/jamieleighchapman">Chapman J.-L.</a> and 
+	<a href="https://www.linkedin.com/in/rebecca-killick-0427b615a">Killick R.</a> </tr> 
     <tr> <td align="left"><i>version</i></td> <td align="left">1.0</td> </tr> 
     <tr> <td align="left"><i>status</i></td> <td align="left">since 2018 &ndash; <b>closed</b> </td> </tr> 
     <tr> <td align="left"><i>license</i></td> <td align="left"><a href="https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdfEUPL">EUPL</a> <i>(cite the source code or the methodological document above!)</i></td> </tr> 
